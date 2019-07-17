@@ -662,6 +662,35 @@ img {
 }
 
 /* END STYLE GERAL */
+.header nav {
+  -webkit-box-shadow: 2px 10px 5px -6px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 2px 10px 5px -6px rgba(0, 0, 0, 0.15);
+  box-shadow: 2px 10px 5px -6px rgba(0, 0, 0, 0.15);
+  padding: 20px 0;
+}
+.header nav > .container {
+  display: flex;
+  align-items: center;
+}
+.header nav .list__menu {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+.header nav .list__menu__item a {
+  text-decoration: none;
+  color: #333;
+}
+.header nav .list__card {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+.header nav .list__card__item__search {
+  border: none !important;
+  background: transparent;
+}
+
 /* About-Home */
 #about-home {
   margin-bottom: 120px;
