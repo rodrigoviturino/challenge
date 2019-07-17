@@ -20,6 +20,7 @@ $font-1: 'Montserrat', sans-serif;
     @return $pixel / $contexto + em;
 }
 
+
 // Mixins TIPOGRAFIA
 @mixin type-1($size){
 
