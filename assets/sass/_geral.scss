@@ -1,0 +1,13 @@
+/* STYLE GERAL */
+
+body {
+    height: 2000px;
+    position: relative;
+    @include type-1(18px);
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+/* END STYLE GERAL */

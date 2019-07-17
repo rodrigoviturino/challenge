@@ -1,0 +1,30 @@
+.intro {
+    margin-top: 75px;
+    @include device(s) {
+        margin-top: 20px;
+    }
+}
+
+.logo { 
+    margin-bottom: 60px;
+}
+
+.intro-info {
+    border-right: solid 2px $cinza;
+    max-width: 320px;
+    @include type-1(18);
+    p {
+        padding-top: 10px;
+    }
+    p:first-child {
+        border-bottom: solid 2px $cinza;
+        padding-bottom: 10px;
+    }
+}
+
+.intro-telefone {
+    color: $bege-escuro;
+    @include device(s){
+
+    }
+}

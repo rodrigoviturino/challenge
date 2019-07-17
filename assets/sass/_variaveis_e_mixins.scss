@@ -1,0 +1,64 @@
+// Cores
+$title-main: #3c3954;
+$text-title: #757575;
+$title-section: #3c3954;
+$white:#fff;
+$black:#000;
+$title-hover: #d13a75;
+$icon-hover: #D23E78;
+$bg-content: #F5F8FE;
+$roxo-claro: #ced2ff;
+$bg-input: #f4f4fd;
+$cinza-claro: #fafafa;
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700&display=swap');
+$font-1: 'Montserrat', sans-serif;
+
+// Função de CONVERTER PX to EM
+@function em($pixel, $contexto: 16) {
+    @return $pixel / $contexto + em;
+}
+
+// Mixins TIPOGRAFIA
+@mixin type-1($size){
+
+    font-family: $font-1;
+    @if $size == 14 {
+        font-size:em(14);
+        line-height: em(26,14);
+    }
+    @else if $size == 16 {
+        font-size: em(16);
+        line-height: em(30,16);
+    }
+    @else if $size == 24 {
+        font-size: em(24);
+        line-height: em(34,24);
+    }
+    @else if $size == 18 {
+        font-size: em(18);
+        line-height: em(25);
+    }
+    @else if $size == 20 {
+        font-size: em(20);
+        line-height: em(35,20);
+    }
+    @else if $size == 40 {
+        font-size: em(40);
+        line-height: 50px;
+    }
+    @else if $size == 45 {
+        font-size: em(45);
+        line-height: em(56, 45);
+    }
+    @else if $size == 50 {
+        font-size: em(50);
+    }
+    @else if $size == 60 {
+        font-size: em(60);
+        line-height: 80px;
+    }
+}
+
+
