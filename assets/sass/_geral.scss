@@ -11,3 +11,18 @@ img {
     max-width: 100%;
 }
 /* END STYLE GERAL */
+
+.box {
+    background-color: #ccc;
+    height: 460px;
+    width: 322px;
+    overflow-y: scroll;
+
+    .produtos {
+        display: flex;
+
+        .produto {}
+
+        .informacoes {}
+    }
+}
