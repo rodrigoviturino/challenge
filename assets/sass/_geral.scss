@@ -20,9 +20,6 @@ img {
 
     .produtos {
         display: flex;
-
-        .produto {}
-
-        .informacoes {}
+        flex-direction: column;
     }
 }

@@ -1,0 +1,22 @@
+{
+  "name": "challenge",
+  "version": "1.0.0",
+  "description": "Criação de layout para consumir aquivo json com ajax - ePlus",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigoviturino/challenge.git"
+  },
+  "author": "Rodrigo Viturino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodrigoviturino/challenge/issues"
+  },
+  "homepage": "https://github.com/rodrigoviturino/challenge#readme",
+  "dependencies": {
+    "restify": "^8.3.3"
+  }
+}
