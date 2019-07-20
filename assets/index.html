@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="style.css">
     <title>Teste Agência E-Plus</title>
 </head>
 <body>
@@ -65,20 +65,30 @@
 </header>
 
 <section class="container">
-    
-<h1>Listagem de Produtos</h1>
 
 <div>
     <ul id="tela"></ul>
 </div>
 
-<section class="box">
-    <div class="container">
-        <div class="produtos">
-
+    <section class="box__cart">
+        <div class="container">
+            <div class="box__cart__produtos js_produtos">
+            </div>
         </div>
-    </div>
-</section>
+
+        <section class="box__cart__action">
+            
+                <div class="box__cart__action__priceTotal">
+                    <p>Total do pedido: <span id="vlTotal"></span></p>
+                </div>
+                <div class="box__cart__action__buy">
+                    <button class="box__cart__action__buy__btnBuy">
+                        FINALIZAR COMPRA
+                    </button>
+                </div>
+
+        </section>
+    </section>
 
 </section>
 
