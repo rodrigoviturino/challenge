@@ -52,8 +52,8 @@
                         </a>
                     </li>
                     <li class="lista__card__item">
-                        <a href="#">
-                            <img src="img/icons/baseline-shopping_cart-24px.svg" alt="">
+                        <a href="#" class="js-cart">
+                            <img src="img/icons/baseline-shopping_cart-24px.svg" alt="" onmouseover="activeCart(this)">
                         </a>
                     </li>
                 </ul>
@@ -70,7 +70,7 @@
     <ul id="tela"></ul>
 </div>
 
-    <section class="box__cart">
+    <section class="box__cart close">
         <div class="container">
             <div class="box__cart__produtos js_produtos">
             </div>
@@ -95,6 +95,16 @@
 <script src="js/jquery-3.4.1.min.js"></script>
 <script src="js/axios.js"></script>
 <script src="js/main.js"></script>
+
+<script>
+  function activeCart(this) {
+    let carrinho = document.querySelector('.js-cart');
+    this.addEventListener('onmouseover', function(e){
+    e.preventDefault();
+      console.log(this);  
+    });
+}
+</script>
 
 </body>
 </html>

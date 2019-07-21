@@ -660,6 +660,10 @@ img {
   max-width: 100%;
 }
 
+.close {
+  display: none;
+}
+
 /* END STYLE GERAL */
 .box__cart {
   position: relative;

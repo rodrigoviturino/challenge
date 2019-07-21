@@ -51,3 +51,9 @@ axios.get('http://127.0.0.1:5500/assets/js/products.json')
           console.log(error)
       }
   })
+
+
+  /* Action Cart */
+
+  
+
