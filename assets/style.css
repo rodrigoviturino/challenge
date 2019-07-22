@@ -768,6 +768,7 @@ img {
 }
 .box__cart__action__priceTotal {
   padding: 25px;
+  font-family: "Montserrat", sans-serif;
 }
 @media screen and (max-width: 759px) {
   .box__cart__action__priceTotal {
@@ -777,6 +778,7 @@ img {
 .box__cart__action__priceTotal span {
   font-weight: 700;
   color: #565656;
+  font-family: "Montserrat", sans-serif;
 }
 .box__cart__action__buy {
   background-color: #00bb16;
