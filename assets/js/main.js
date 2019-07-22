@@ -55,5 +55,24 @@ axios.get('http://127.0.0.1:5500/assets/js/products.json')
 
   /* Action Cart */
 
+  let btnCarCart = document.querySelector('.js-cart img');
+
+  btnCarCart.addEventListener('mouseover', function(){
+
+    document.querySelector('#box-cart').classList.toggle('close');
+
+    document.querySelector('#box-cart').addEventListener('mouseleave', function(e){
+      this.classList.add('close');
+    });
+
+  });
+
+
+  /* Menu Mobile */
+  document.querySelector('#mobile').addEventListener('click', function(){
+    document.querySelector('.list__menu').classList.toggle('show-mobile');
+  });
+
+  
   
 

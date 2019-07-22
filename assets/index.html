@@ -13,13 +13,13 @@
     
     <nav>
         <div class="container">
-            <div class="grid-2">
+            <div class="grid-3">
                 <div class="logo">
                     <a href="#"><img src="img/logo/agencia-eplus-n-logo.png" alt=""></a>
                 </div>
             </div>
 
-            <div class="grid-7">
+            <div class="grid-7 nav-close">
                 <ul class="list__menu">
                     <li class="list__menu__item">
                         <a href="#">Lorem ipsum</a>
@@ -37,9 +37,10 @@
                         <a href="#">Lorem ipsum</a>
                     </li>
                 </ul>
+                <button id="mobile">Menu</button>
             </div>
 
-            <div class="grid-3">
+            <div class="grid-2">
                 <ul class="list__card">
                     <li class="list__card__item">
                         <button class="list__card__item__search">
@@ -53,7 +54,7 @@
                     </li>
                     <li class="lista__card__item">
                         <a href="#" class="js-cart">
-                            <img src="img/icons/baseline-shopping_cart-24px.svg" alt="" onmouseover="activeCart(this)">
+                            <img src="img/icons/baseline-shopping_cart-24px.svg" alt="">
                         </a>
                     </li>
                 </ul>
@@ -70,7 +71,7 @@
     <ul id="tela"></ul>
 </div>
 
-    <section class="box__cart close">
+    <section class="box__cart close" id="box-cart">
         <div class="container">
             <div class="box__cart__produtos js_produtos">
             </div>
@@ -95,16 +96,6 @@
 <script src="js/jquery-3.4.1.min.js"></script>
 <script src="js/axios.js"></script>
 <script src="js/main.js"></script>
-
-<script>
-  function activeCart(this) {
-    let carrinho = document.querySelector('.js-cart');
-    this.addEventListener('onmouseover', function(e){
-    e.preventDefault();
-      console.log(this);  
-    });
-}
-</script>
 
 </body>
 </html>
