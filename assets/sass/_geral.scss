@@ -32,7 +32,7 @@ img {
         top: -23px;
         margin-right: -12px;
         position: absolute;
-        right: 14%;
+        right: 7%;
 
             @include device(s){
                 border-left: 20px solid transparent;
@@ -54,7 +54,7 @@ img {
         }
 
         @include device(m) {
-            left: 50%;
+            left: 52%;
         }
 
         @include device(s){

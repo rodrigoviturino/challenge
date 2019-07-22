@@ -682,7 +682,7 @@ img {
   top: -23px;
   margin-right: -12px;
   position: absolute;
-  right: 14%;
+  right: 7%;
 }
 @media screen and (max-width: 759px) {
   .box__cart:before {
@@ -706,7 +706,7 @@ img {
 }
 @media screen and (min-width: 760px) and (max-width: 1199px) {
   .box__cart {
-    left: 50%;
+    left: 52%;
   }
 }
 @media screen and (max-width: 759px) {
